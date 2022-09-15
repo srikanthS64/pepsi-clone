@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    font-family: "sofia Pro Black",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    text-transform: uppercase;
+    background-color: #0065c0;
+    padding: 10px;
+    color: white;
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.navbar-item{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.navbar-right .navbar-item{
+    border-radius: 30px;
+    border: 2px solid white;
+    padding: 5px 25px;
+}
