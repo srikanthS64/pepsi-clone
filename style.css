@@ -1,6 +1,7 @@
 body{
     margin: 0px;
-    font-family: "sofia Pro Black",Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: 'Sofia Pro Black',Helvetica Neue,Helvetica,Arial,sans-serif;
+    height: 1000vh;
 }
 .navbar{
     display: flex;
@@ -28,4 +29,33 @@ body{
     border-radius: 30px;
     border: 2px solid white;
     padding: 5px 25px;
+}
+.product{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product-item img{
+    width: 60%;
+    padding: 20px;
+}
+.product-item{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.product-item-column{
+    flex-direction: column;
+}
+.product-text{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+.product-button{
+    color: white;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 5px 35px;
 }
