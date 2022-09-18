@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     font-family: 'Sofia Pro Black',Helvetica Neue,Helvetica,Arial,sans-serif;
-    height: 1000vh;
+    height: 500vh;
 }
 .navbar{
     display: flex;
@@ -44,6 +44,7 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
+    max-width: 50%;
 }
 .product-item-column{
     flex-direction: column;
